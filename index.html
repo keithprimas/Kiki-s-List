@@ -10,12 +10,24 @@
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Kiki's List</h1>
+        <div class="row justify-content-center">
+            <div class="mb-3 col-lg-4 text-center mt-3">
+                <input type="text" id="movieInput" class="form-control" placeholder="Enter movie or show title">
+                <button class="btn btn-primary mt-2" onclick="addMovie()">Add Movie or Show</button>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-7">
+                <ul id="movieList" class="list-group gap-3">
+                    <!-- Movies will be added here dynamically -->
+                </ul>
+            </div>
+        </div>
+    </div>
 
-
-
-
-
+   
     <script src="./assets/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
